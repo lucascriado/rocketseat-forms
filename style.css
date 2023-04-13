@@ -56,13 +56,10 @@ form {
   margin-top: 38px;
   background: #FAFAFC;
   border-radius: 8px 8px 0 0;
-  min-height: 300px;
-
   padding: 64px;
-
   display: flex;
   flex-direction: column;
-  gap: 48px;
+  gap: 24px;
 }
 
 fieldset {
@@ -136,6 +133,7 @@ fieldset legend {
 .input-wrapper textarea {
   padding: 0;
   height: 168px;
+  resize: none;
 }
 
 .input-wrapper select {
@@ -149,7 +147,6 @@ fieldset legend {
 
 .col-3 {
   display: flex;
-  gap: 20px;
 }
 
 .col-3 > div:nth-child(1) {
