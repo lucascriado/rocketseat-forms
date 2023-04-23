@@ -232,3 +232,9 @@ footer .button:hover {
 input:invalid {
  border: 1px solid #FF1010;
 }
+
+@media (max-width: 1100px) {
+  .page {
+    width: 200px;
+  }
+}
