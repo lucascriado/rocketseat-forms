@@ -233,14 +233,14 @@ input:invalid {
  border: 1px solid #FF1010;
 }
 
+
 @media (max-width: 1100px) {
   form {
-    margin-top: 38px;
-    background: #FAFAFC;
-    border-radius: 8px 8px 0 0;
-    padding: 32px;
+    width: 400px;
+
+  }
+  main {
     display: flex;
-    flex-direction: column;
-    gap: 24px;
+    margin: 0 auto;
   }
 }
