@@ -235,12 +235,21 @@ input:invalid {
 
 
 @media (max-width: 1100px) {
-  form {
-    width: 400px;
-
+  .page {
+    width: 450px;
+    margin: 0 1rem;
+    padding: 0 1rem;
   }
-  main {
+  .page-center {
     display: flex;
-    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .fieldset-wrapper-wrap {
+    flex-wrap: wrap;
+    height: 200px;
+  }
+  .input-wrapper-end {
+    margin-left: 10px;
   }
 }
