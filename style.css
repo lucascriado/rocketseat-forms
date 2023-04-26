@@ -234,7 +234,13 @@ input:invalid {
 }
 
 @media (max-width: 1100px) {
-  .page {
-    width: 200px;
+  form {
+    margin-top: 38px;
+    background: #FAFAFC;
+    border-radius: 8px 8px 0 0;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
   }
 }
