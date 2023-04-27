@@ -30,7 +30,6 @@ body::before {
 .page {
   width: 736px;
   margin: 0 auto;
-
 }
 
 header {
@@ -239,18 +238,24 @@ input:invalid {
 
 
 @media (max-width: 1100px) {
+  header h1 {
+    color: #000;
+  }
   body::before {
     display: none;
   }
+  .page {
+    width: 400px;
+  }
   form {
-    padding: 0; 
+    padding: 64px; 
   }
   fieldset {
     display: flex;
     justify-content: center;
   }
   input {
-    width: 500px;
+    width: 270px;
   }
   .fieldset-wrapper-wrap {
     flex-wrap: wrap;
