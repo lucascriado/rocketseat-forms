@@ -245,7 +245,7 @@ input:invalid {
     display: none;
   }
   .page {
-    width: 400px;
+    width: 350px;
   }
   form {
     padding: 64px; 
@@ -255,7 +255,7 @@ input:invalid {
     justify-content: center;
   }
   input {
-    width: 270px;
+    width: 250px;
   }
   .fieldset-wrapper-wrap {
     flex-wrap: wrap;
