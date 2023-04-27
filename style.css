@@ -238,6 +238,9 @@ input:invalid {
 
 
 @media (max-width: 1100px) {
+  body {
+    padding: 0 30px
+  }
   header h1 {
     color: #000;
   }
