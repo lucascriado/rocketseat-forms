@@ -241,6 +241,10 @@ input:invalid {
   header h1 {
     color: #000;
   }
+  main {
+    padding-left: 10px;
+    padding-right: 10px;  
+  }
   body::before {
     display: none;
   }
