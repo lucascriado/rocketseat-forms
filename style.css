@@ -241,6 +241,9 @@ input:invalid {
   header h1 {
     color: #000;
   }
+  header p {
+  color: #000
+  }
   body::before {
     display: none;
   }
