@@ -254,7 +254,10 @@ input:invalid {
     width: 390px;
   }
   form {
-    padding: 64px; 
+    margin: 0 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   fieldset {
     display: flex;
