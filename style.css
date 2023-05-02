@@ -251,6 +251,9 @@ input:invalid {
   .page {
     width: 390px;
   }
+  footer {
+    width: 390px;
+  }
   form {
     padding: 64px; 
   }
