@@ -255,6 +255,7 @@ input:invalid {
     width: 390px;
   }
   footer {
+    margin: 0 1rem
     width: 100%;
   }
   form {
