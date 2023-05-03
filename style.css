@@ -252,6 +252,9 @@ input:invalid {
   }
   .page {
     width: 390px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center
   }
   footer {
     width: 390px;
